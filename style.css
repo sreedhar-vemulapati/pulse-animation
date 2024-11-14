@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pulse{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 100px auto;
+    animation: pulse 1s linear infinite;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    color: brown
+}
+@keyframes pulse {
+    100%{transform: scale(1.2);}
+    0%{transform: scale(0.9);}
+}
